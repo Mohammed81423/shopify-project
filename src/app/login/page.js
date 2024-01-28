@@ -23,7 +23,7 @@ const page = () => {
           <p className='border  border-solid w-[80px] rounded-lg bg-[#f1f1f1]'>   <img src='/apple.png ' className=' rounded-full w-[50px] h-[35px] ml-5'></img></p>
             {/* <img src='/facebook.png ' className='w-[100px]'></img> */}
           </div>
-          <h1 className='mt-7 text-sm '>New to shopify?<span className='text-[#005db3] font-semibold cursor-pointer hover:font-bold'>Get started --</span></h1>
+          <h1 className='mt-7 text-semibold '>New to shopify?<span className='text-[#005db3] font-semibold cursor-pointer hover:font-bold'>Get started --</span></h1>
           <div className='mt-4'>
             <span className='m-2 text-[#616161] text-sm border-b-2 border-transparent hover:border-gray-400 cursor-pointer'>help </span>
             <span className='m-2 text-[#616161] text-sm border-b-2 border-transparent hover:border-gray-400 cursor-pointer'>privacy</span>
