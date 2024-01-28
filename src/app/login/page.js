@@ -1,20 +1,19 @@
-
-import Image from 'next/image'
+import Image from "next/image"
 
 
 
 const page = () => {
   return (
 
-    <main className='flex justify-center min-h-[100vh]  bg-gradient-to-r from-indigo-900 via-indigo-700 to-cyan-400 '>
-      <div className='border border-solid border-gray-500 h-[78vh] w-[400px]  rounded-lg p-[30px] shadow-lg bg-white  mt-6'>
+    <main className='   flex justify-center   sm:bg-gradient-to-r from-indigo-900 via-indigo-700 to-cyan-400  '>
+      <div className='sm:border border-solid border-gray-500  w-[400px]  rounded-lg p-[30px] shadow-lg bg-white  mt-6 sm:  '>
         <div>  <img src='/image.svg  ' className='w-[100px] cursor-pointer'></img></div>
         <div>
           <h1 className='text-xl font-bold mt-[1.8rem] '>Log in</h1>
-          <h3 className='text-[#616161] mb-3'>Continue to Shopify</h3>
+          <h3 className='text-[#616161] mb-3 '>Continue to Shopify</h3>
         </div>
         <div className='flex flex-col'>    <label for="connect" className="text-[14px]">Email </label>
-          <input type="email" id="connect" placeholder='user email' className='border border-solid border-gray-500 rounded p-2 mb-3 ' /></div>
+          <input type="email" id="connect" placeholder='user email' className='border border-solid border-gray-500 rounded p-2 mb-3  ' /></div>
         <button className='border border-solid bg-[#303030] border-gray-500 w-[100%] rounded p-2 text-white font-semibold' >Contiue with email</button>
         <div > <hr className='mt-2 '/> <h1 className='text-center mt-5'>or</h1>
         </div>

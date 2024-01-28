@@ -13,8 +13,8 @@ const page = () => {
         </div>
         <div className='flex w-[100%] rounded p-5 hover:bg-gray-100 '>
             
-            <div className='w-9 rounded bg-gray-500 '><span className='bg-red-500'><CiUser className='text-center text-[30px] pl-2 rounded'/></span> </div>
-          <div> <p className='font-semibold  ml-5'> Add Account</p></div>
+            <div className='w-9 rounded bg-gray-500 cursor-pointer'><span className='bg-red-500'><CiUser className='text-center text-[30px] pl-2 rounded'/></span> </div>
+          <div> <p className='font-semibold  ml-5 cursor-pointer mt-1'> Add Account</p></div>
           </div>
 
         <div className='mt-4'>
